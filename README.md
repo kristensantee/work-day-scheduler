@@ -30,13 +30,13 @@ THEN the saved events persist
 
 ## Run and Install
 
-The deployed Work Day Scheduler can be accessed [here](url.for.deployed.site). A screenshot of the site is shown below:
+The deployed Work Day Scheduler can be accessed [here](https://kristensantee.github.io/work-day-scheduler/). A screenshot of the site is shown below:
 
-[!]
+![](./assets/Screenshot.png)
 
 ## Run How to Use the Project
 
-
+This project was designed to be an exercise in using frameworks and javascript assets but I found it to be very challenging to get some of the criteria met. The timeblocks are supposed to be color-coded which I have coded for around line 104-112 utilizing class styling from the stylesheet but is not fully cooperating at this time and still needs some more tinkering. Additionally, the content the user adds to the inputs is stored locally but does not stay on the page after refresh. I had some planned code from lines 39-48 but couldn't get the code to fully work. I think with more time and more troubleshooting, I could iron out some of the wrinkles. Additionally, the html includes an option that I commented out for a table alternative instead of a grid option which is what I ended up going with. I don't know if that was ultimately the right call so I kept the table breakdown available in case I wanted to revisit it. 
 
 ## How to Contribute to the Project
 This project was designed to incorporate Moment.js and build on our use of third-party frameworks (Bootstrap, jquery) when building code. The assignment came with starter code for the css and the jumbotron headerand the html body utilized framework options as well. 
