@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +30,119 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-    </div>
+      <table class="table textarea table-border">
+        <tbody>
+            <div class="container">
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">9AM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourNineInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourNineButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">10AM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourTenInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourTenButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">11AM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourElevenInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourElevenButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">12PM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourTwelveInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourTwelveButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">1PM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourOneInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourOneButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">2PM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourTwoInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourTwoButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">3PM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourThreeInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourThreeButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">4PM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourFourInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourFourButton" type="submit">&#128190
+                    </div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-lg-2 flex-nowrap time-block hour">5PM</div>
+                    <div class="col-md-auto input-group-lg"><input type="text" class="description form-control" id="hourFiveInput"></div>
+                    <div class="col col-lg-2"><button class="btn btn-primary saveBtn" id="hourFiveButton" type="submit">&#128190
+                    </div>
+                </div>
+            </div>
+
+
+
+
+          <!-- <tr>
+            <th scope="row" class="hour time-block">9AM</th>
+            <td class="row input-group input-group-lg"><input type="text" class="description form-control"></td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">10AM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"></td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">11AM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"> </td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">12AM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"> </td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">1PM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"> </td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">2PM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"> </td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">3PM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"> </td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">4PM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"> </td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">5PM</th>
+            <td class="row input-group input-group-lg"> <input type="text" class="description form-control"> </td>
+            <td><button class="btn btn-primary saveBtn" id="svBtn button-addon2" type="submit">&#128190</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
